@@ -37,11 +37,11 @@ Pokud si chcete psaní query vyzkoušet sami, můžete k tomu využít zadání,
 **Order:** Pořadí testu. <br>
 **Description:** Krátký popis testu - všem by pak mělo být jasné, o co v testu jde, pokud bude zkoumat bug. <br>
 **Case:** Název sady několika testů, může být jakýkoli, například názvy tabulek, pro které budeme tvořit více samostatných testů. <br>
-**TestQuerySource:** Název (alias) databáze nebo jiného zdroje, ve kterém bude exekuována první query. Jedná se o ConnectionName, které jsme si definovali. <br>
-**TestQuery:** Samotná query/dotaz do databáze nebo jiného zdroje. <br>
-**ReferenceQuerySource:** Název (alias) databáze nebo jiného zdroje, ve kterém bude exekuována druhá referenční query. Jedná se o ConnectionName, které jsme si definovali. <br>
-**ReferenceQuery:** Samotná query/dotaz do databáze nebo jiného zdroje. <br>
-**TestTypeName:** Pro Integrační testy v tomto případě používáme **SameData**. U SameData JC:Unit očekává, že se nám z obou query/dotazů vrátí stejné hodnoty. Pokud hodnoty nejsou stejné, test spadne. Záleží na pořadí hodnot, proto používáme Order by.
+**First Data Source:** Název (alias) databáze nebo jiného zdroje, ve kterém bude exekuována první query. Jedná se o ConnectionName, které jsme si definovali. <br>
+**First Query:** Samotná query/dotaz do databáze nebo jiného zdroje. <br>
+**Second Data Source:** Název (alias) databáze nebo jiného zdroje, ve kterém bude exekuována druhá referenční query. Jedná se o ConnectionName, které jsme si definovali. <br>
+**Second Query:** Samotná query/dotaz do databáze nebo jiného zdroje. <br>
+**Expectation:** Pro Integrační testy v tomto případě používáme **Sets Match**. U Sets Match CAT očekává, že se nám z obou query/dotazů vrátí stejné hodnoty. Pokud hodnoty nejsou stejné, test spadne. Záleží na pořadí hodnot, proto používáme Order by.
 
 Na konci dokumentu můžete najít informace o tabulkách v
 AdventureWorks2019.
