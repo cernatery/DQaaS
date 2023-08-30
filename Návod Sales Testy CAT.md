@@ -17,7 +17,7 @@ Pokud si chcete psaní query vyzkoušet sami, můžete k tomu využít zadání,
 
 ## Struktura Smoke testu v souboru TestDefinitions.cat.yaml
 
-![Smoke](Images/media/Smoke.jpg)
+![Smoke](Images/media/Smoke-CAT.jpg)
 
 **Name:** Název pro test, může být jakýkoli, ale měli bychom z něj poznat, o co nám v testu jde. Z Suite, Order, Case a Name CAT složí celý název testu, takže bude vypadat například takto *[Smoke Sales].[1].[Sales.CreditCard].[Len of Card Number]*. <br>
 **Suite:** Název sady několika test cases, může být jakýkoli, například pod Suite zahrneme všechny Smoke testy. <br>
@@ -30,7 +30,7 @@ Pokud si chcete psaní query vyzkoušet sami, můžete k tomu využít zadání,
 
 ## Struktura Integračního testu v souboru TestDefinitions.cat.yaml
 
-![Int](Images/media/Int.jpg)
+![Int](Images/media/Int-CAT.jpg)
 
 **Name:** Název pro test, může být jakýkoli, ale měli bychom z něj poznat, o co nám v testu jde. Z TestSuite, Order, TestCase a TestName CAT složí celý název testu, takže bude vypadat například takto *[Integration Sales].[1].[Sales.SalesTerritory x dbo.DimSalesTerritory].[Values of SalesTerritoryRegion]*. <br>
 **Suite:** Název sady několika test cases, může být jakýkoli, například pod TestSuite zahrneme všechny Integrační testy. <br>
