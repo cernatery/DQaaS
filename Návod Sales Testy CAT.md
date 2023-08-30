@@ -15,7 +15,7 @@ databázi AdventureWorksDW2019.
 Některé query jsou v zadání předvyplněné, takže stačí vytvořit testy v souboru TestDefinition.yaml a zkopírovat je. 
 Pokud si chcete psaní query vyzkoušet sami, můžete k tomu využít zadání, nebo si vymyslet vlastní testy podle vaší fantazie. :)
 
-## Struktura Smoke testu v souboru TestDefinitions.yaml
+## Struktura Smoke testu v souboru TestDefinitions.cat.yaml
 
 ![Smoke](Images/media/Smoke.jpg)
 
@@ -32,7 +32,7 @@ Pokud si chcete psaní query vyzkoušet sami, můžete k tomu využít zadání,
 
 ![Int](Images/media/Int.jpg)
 
-**Name:** Název pro test, může být jakýkoli, ale měli bychom z něj poznat, o co nám v testu jde. Z TestSuite, Order, TestCase a TestName JC.Unit složí celý název testu, takže bude vypadat například takto *[Integration Sales].[1].[Sales.SalesTerritory x dbo.DimSalesTerritory].[Values of SalesTerritoryRegion]*. <br>
+**Name:** Název pro test, může být jakýkoli, ale měli bychom z něj poznat, o co nám v testu jde. Z TestSuite, Order, TestCase a TestName CAT složí celý název testu, takže bude vypadat například takto *[Integration Sales].[1].[Sales.SalesTerritory x dbo.DimSalesTerritory].[Values of SalesTerritoryRegion]*. <br>
 **Suite:** Název sady několika test cases, může být jakýkoli, například pod TestSuite zahrneme všechny Integrační testy. <br>
 **Order:** Pořadí testu. <br>
 **Description:** Krátký popis testu - všem by pak mělo být jasné, o co v testu jde, pokud bude zkoumat bug. <br>
